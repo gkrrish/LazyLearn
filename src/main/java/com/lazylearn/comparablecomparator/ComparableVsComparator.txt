@@ -1,0 +1,32 @@
+Comparable and Comparator :
+---------------------------
+--basically both are meant for same purpose, have the small contradict is , 
+
+Comparable will be used for : itself with another object
+
+
+Comparator will be used for : both external objects
+
+Question ?
+------------
+should be have the same type or how?
+
+
+Comparable --compareTo() basic implementation is int--> natural sorting order
+						alphabits--> a-z
+
+Comparator---compare() basic implementation is basic sorting but best when we want to compare our own sorting logic
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+actually sorting and comparing or basic needs of developer, each time implementing the sorting for
+commonly used object is duplicate work, hence Java people itself they added the comparable and comparator
+feature for Collections, Arrays, and Strings and wrapper classes and some of other mostly used classes. 
+
+
+-------------------------------------------------------------------------------------------------------------------
+now we can see if we want to implement the our own objects how to be sorted on basis of our own condition
+
+Integer.compare as already implemented the Comparable
+
